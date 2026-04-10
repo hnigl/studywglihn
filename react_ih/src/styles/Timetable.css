@@ -123,7 +123,7 @@
 
 .task-input::placeholder {
   color: #b0b8c1;
-  font-size: 12px;
+  font-size: 20px;
 }
 
 .task-input:focus {
