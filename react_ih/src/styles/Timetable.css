@@ -10,7 +10,7 @@
 
 .timetable-container h2 {
   text-align: center;
-  color: #1e293b;
+  color: #e2e8f0;
   margin-bottom: 20px;
   font-size: 28px;
   font-weight: 600;
@@ -38,7 +38,7 @@
 .checkbox-label,
 .task-input,
 .checkbox-label span {
-  color: #1e293b;
+  color: #e2e8f0;
 }
 
 
@@ -55,21 +55,21 @@
 }
 
 .task-cell {
-  border: 1px solid #e8ecf1;
+  border: 1px solid #4c1d95;
   padding: 6px;
   text-align: center;
   min-width: 100px;
-  background-color: #ffffff;
+  background-color: #1a1a2e;
 }
 
 .task-cell:nth-child(6),
 .task-cell:nth-child(7) {
-  background-color: #ffffff;
+  background-color: #1a1a2e;
 }
 
 .task-box {
-  background-color: #ffffff;
-  border: 2px solid #e8ecf1;
+  background-color: #16213e;
+  border: 2px solid #4c1d95;
   border-radius: 8px;
   padding: 6px;
   min-height: 45px;
@@ -80,9 +80,9 @@
 }
 
 .task-box:hover {
-  background-color: #f0f4ff;
-  border-color: #667eea;
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.1);
+  background-color: #0f0f23;
+  border-color: #8b5cf6;
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.1);
 }
 
 .checkbox-label {

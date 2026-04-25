@@ -11,11 +11,24 @@
 
 .process-container h2 {
   text-align: center;
-  color: #4a5568;
+  color: #e2e8f0;
   margin-bottom: 40px;
   font-size: 32px;
   font-weight: 600;
   letter-spacing: 0.5px;
+}
+
+.process-loading {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto 24px;
+  padding: 14px 18px;
+  background: rgba(148, 163, 184, 0.12);
+  border: 1px solid rgba(148, 163, 184, 0.24);
+  color: #e2e8f0;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 0.96rem;
 }
 
 /* Stats Section */
@@ -29,18 +42,18 @@
 
 .total-hours,
 .average-hours {
-  background-color: #ffffff;
+  background-color: #1a1a2e;
   border-radius: 12px;
   padding: 25px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   text-align: center;
   min-width: 200px;
-  border: 1px solid #e2e8f0;
+  border: 1px solid #4c1d95;
 }
 
 .total-hours h3,
 .average-hours h3 {
-  color: #718096;
+  color: #a78bfa;
   margin-bottom: 15px;
   font-size: 16px;
   font-weight: 600;
@@ -51,14 +64,14 @@
 .hours-display {
   font-size: 36px;
   font-weight: 700;
-  color: #2d3748;
+  color: #e2e8f0;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   margin-bottom: 8px;
 }
 
 .sessions-display {
   font-size: 14px;
-  color: #a0aec0;
+  color: #a78bfa;
   font-weight: 500;
 }
 
@@ -70,7 +83,7 @@
 
 .chart-section h3 {
   text-align: center;
-  color: #4a5568;
+  color: #e2e8f0;
   margin-bottom: 30px;
   font-size: 24px;
   font-weight: 600;
